@@ -1,0 +1,31 @@
+body {
+	background: black;
+}
+
+.box {
+	position: absolute;
+    background-repeat: no-repeat;
+    backface-visibility: hidden ;
+    transform-style: preserve-3d;
+  	transition: 1s;
+}
+
+.back {
+	transform: rotateX(-180deg);
+}
+
+.flipLeft {
+	transform: rotateY(180deg);
+}
+
+.flipRight {
+  	transform: rotateY(-180deg);
+}
+
+.flipTop {
+  	transform: rotateX(180deg);
+}
+
+.flipBottom {
+  	transform: rotateX(-180deg);
+}
